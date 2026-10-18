@@ -3,6 +3,4 @@ project(VectorSearchD03 CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Tu w przyszłości odkomentujemy OpenMP, MPI i CUDA
-
-add_executable(wyszukiwanie src/main.cpp src/loader.cpp)
+add_executable(wyszukiwanie src/main.cpp src/loader.cpp src/wzorzec.cpp)
