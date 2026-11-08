@@ -9,3 +9,4 @@ struct Wynik
 
 float odlegloscEuklidesowa(const float *vecA, const float *vecB, int dim);
 std::vector<Wynik> znajdzTopK(const std::vector<float> &baza, const std::vector<float> &zapytanie, int dim, int k);
+std::vector<Wynik> znajdzTopK_OpenMP(const std::vector<float> &baza, const std::vector<float> &zapytanie, int dim, int k);
